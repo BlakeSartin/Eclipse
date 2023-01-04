@@ -1,5 +1,9 @@
 import "./App.css";
 import Topbar from "./components/Topbar";
+import Dawn_Profile from "./components/Dawn_Profile";
+import Dusk_Profile from "./components/Dusk_Profile";
+import Chat from "./components/Chat";
+import Profile_Edit from "./components/Profile_Edit";
 
 function App() {
   let component;
