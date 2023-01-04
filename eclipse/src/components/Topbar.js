@@ -3,7 +3,8 @@ import "./Topbar.scss";
 
 export default function Topbar () {
   <nav>
-    <ul>
-    </ul>
+    <h2>Profile Logo</h2>
+    <h1>Logo</h1>
+    <h2>Chats Logo</h2>
   </nav>
 }
