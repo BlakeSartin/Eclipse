@@ -1,23 +1,27 @@
 import "./App.css";
 import Topbar from "./components/Topbar";
-import Dawn_Profile from "./components/Dawn_Profile";
-import Dusk_Profile from "./components/Dusk_Profile";
+import DawnProfile from "./components/Dawn_Profile";
+import DuskProfile from "./components/Dusk_Profile";
 import Chat from "./components/Chat";
-import Profile_Edit from "./components/Profile_Edit";
+import ProfileEdit from "./components/Profile_Edit";
 
 function App() {
   let component;
   switch (window.location.pathname) {
     case "/":
-      component = <Dawn_Profile />;
+      component = <DawnProfile />;
+      break;
     case "/chats":
       component = <Chat />;
+      break;
     case "/profile":
-      component = <Profile_Edit />;
+      component = <ProfileEdit />;
+      break;
   }
   return (
     <div className="App">
       <Topbar />
+      {component}
     </div>
   );
 }
