@@ -1,4 +1,4 @@
-.nav {
+.dawn_nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,12 +7,37 @@
   height: 50px;
 }
 
-.icons {
+.dusk_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: darkblue;
+  height: 50px;
+}
+
+.dawn_icons {
   color: black;
   display: flex;
 }
 
-.sunIcon {
-  padding-left: 5em;
-  padding-right: 5em;
+.dusk_icons {
+  color: white;
+  display: flex;
+}
+
+.profileSwitchButton {
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.accountIcon {
+  padding-right: 3em;
+}
+
+.chatIcon {
+  padding-left: 3em;
 }
