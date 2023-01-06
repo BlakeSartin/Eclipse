@@ -8,9 +8,9 @@ export default function Topbar() {
   return (
     <nav className="nav">
       <div className="icons">
-      <AccountCircleTwoToneIcon/>
-      <WbSunnyTwoToneIcon/>
-      <ChatTwoToneIcon/>
+      <AccountCircleTwoToneIcon className="accountIcon"/>
+      <WbSunnyTwoToneIcon className="sunIcon"/>
+      <ChatTwoToneIcon className="chatIcon"/>
       </div>
     </nav>
   );
