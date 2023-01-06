@@ -32,6 +32,21 @@
   width: 50px;
   display: flex;
   justify-content: center;
+  .sun_icon {
+    display: flex;
+  }
+  .dis_sun_icon {
+    display: none;
+  }
+  
+  .moon_icon {
+    display: flex;
+    color: white;
+  }
+  
+  .dis_moon_icon {
+    display: none;
+  }
 }
 
 .accountIcon {
@@ -41,3 +56,4 @@
 .chatIcon {
   padding-left: 3em;
 }
+
