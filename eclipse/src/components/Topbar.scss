@@ -5,6 +5,7 @@
   color: white;
   background-color: yellow;
   height: 50px;
+  transition: ease 5s;
 }
 
 .dusk_nav {
@@ -14,16 +15,19 @@
   color: white;
   background-color: darkblue;
   height: 50px;
+  transition: ease 5s;
 }
 
 .dawn_icons {
   color: black;
   display: flex;
+  transition: ease 5s;
 }
 
 .dusk_icons {
   color: white;
   display: flex;
+  transition: ease 5s;
 }
 
 .profileSwitchButton {
@@ -32,20 +36,25 @@
   width: 50px;
   display: flex;
   justify-content: center;
+  transition: ease 5s;
   .sun_icon {
     display: flex;
+    transition: ease 5s;
   }
   .dis_sun_icon {
     display: none;
+    transition: ease 5s;
   }
   
   .moon_icon {
     display: flex;
     color: white;
+    transition: ease 5s;
   }
   
   .dis_moon_icon {
     display: none;
+    transition: ease 5s;
   }
 }
 
