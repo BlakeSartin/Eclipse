@@ -3,19 +3,19 @@ import Topbar from "./components/Topbar";
 import DawnProfile from "./components/Dawn_Profile";
 import DuskProfile from "./components/Dusk_Profile";
 import Chat from "./components/Chat";
-import ProfileEdit from "./components/Profile_Edit";
+import Home from "./components/Home"
 
 function App() {
   let component;
   switch (window.location.pathname) {
     case "/":
-      component = <DawnProfile />;
+      component = <Home/>;
       break;
     case "/chats":
       component = <Chat />;
       break;
     case "/profile":
-      component = <ProfileEdit />;
+      component = <DawnProfile />;
       break;
   }
   return (
