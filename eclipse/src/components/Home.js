@@ -7,7 +7,7 @@ export default function Home () {
 return (
   <div className="home_container">
     <img className="profile_pic" src="../photos/profilepic.jpg"></img>
-    <h1>Katrina Teitz</h1>
+    <h1 className="profile_name">Katrina Teitz</h1>
     <div className="swipe_buttons">
     <button className="heart_broken_button"><HeartBrokenTwoToneIcon fontSize="large"/></button>
       <button className="heart_button"><FavoriteTwoToneIcon fontSize="large"/></button>
