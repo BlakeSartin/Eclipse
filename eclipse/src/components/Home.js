@@ -1,17 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.scss"
-import FavoriteTwoToneIcon from '@mui/icons-material/FavoriteTwoTone';
-import HeartBrokenTwoToneIcon from '@mui/icons-material/HeartBrokenTwoTone';
+import DawnProfile from "./Dawn_Profile";
+
+
 
 export default function Home () {
+  const [isActive, setActive] = useState("false")
+  const ToggleComponent = () => {
+    setActive(!isActive);
+  };
 return (
-  <div className="home_container">
-    <img className="profile_pic" src="../photos/profilepic.jpg"></img>
-    <h1 className="profile_name">Katrina Teitz</h1>
-    <div className="swipe_buttons">
-    <button className="heart_broken_button"><HeartBrokenTwoToneIcon fontSize="large"/></button>
-      <button className="heart_button"><FavoriteTwoToneIcon fontSize="large"/></button>
-      </div>
-    </div>
+
 )
 }
