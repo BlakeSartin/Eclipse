@@ -1,7 +1,5 @@
 import "./App.css";
 import Topbar from "./components/Topbar";
-import DawnProfile from "./components/Dawn_Profile";
-import DuskProfile from "./components/Dusk_Profile";
 import Chat from "./components/Chat";
 import Home from "./components/Home"
 
@@ -13,9 +11,6 @@ function App() {
       break;
     case "/chats":
       component = <Chat />;
-      break;
-    case "/profile":
-      component = <DawnProfile />;
       break;
   }
   return (

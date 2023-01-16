@@ -1,0 +1,32 @@
+.dusk_home_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 95vh;
+  background-color: rgb(1, 45, 59);
+}
+
+.dusk_profile_pic {
+  height: 400px;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.dusk_profile_name {
+  color: white;
+}
+
+.dusk_heart_button {
+  border: none;
+  background-color: transparent;
+  color: rgb(238, 2, 41);
+  padding-left: 2em;
+}
+
+.dusk_heart_broken_button {
+  border: none;
+  background-color: transparent;
+  color: rgb(31, 31, 77);
+  padding-right: 2em;
+}
