@@ -3,7 +3,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 95vh;
+  height: fit-content;
   background-color: lightblue;
 }
 
@@ -17,16 +17,12 @@
   color: white;
 }
 
-.dawn_heart_button {
-  border: none;
-  background-color: transparent;
-  color: pink;
-  padding-left: 2em;
-}
-
-.dawn_heart_broken_button {
-  border: none;
-  background-color: transparent;
-  color: blue;
-  padding-right: 2em;
+.dawn_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: lightcyan;
+  margin-left: 10px;
+  margin-right: 10px;
 }

@@ -3,7 +3,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 95vh;
+  height: fit-content;
   background-color: rgb(1, 45, 59);
 }
 
@@ -17,16 +17,12 @@
   color: white;
 }
 
-.dusk_heart_button {
-  border: none;
-  background-color: transparent;
-  color: rgb(238, 2, 41);
-  padding-left: 2em;
-}
-
-.dusk_heart_broken_button {
-  border: none;
-  background-color: transparent;
-  color: rgb(31, 31, 77);
-  padding-right: 2em;
+.dusk_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: lightblue;
+  margin-left: 10px;
+  margin-right: 10px;
 }
